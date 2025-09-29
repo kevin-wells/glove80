@@ -40,7 +40,7 @@
             bindings = <&mo>, <&rgb_ug_status_macro>;
         };
 
-	&k_mt {
+	&k_mt: mod_tap {
 	    // Same as mt
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
